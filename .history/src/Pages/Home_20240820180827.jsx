@@ -17,7 +17,7 @@ function Home() {
         className=" mt-28 md:mt-24 justify-center bg-center bg-no-repeat items-center w-full bg-[url('/Images/Home-bg.png')] "
       >
         <div>
-          <h1 className="  text-wrap text-white text-7xl md:text-7xl  font-medium md:font-medium text-center pt-32 lg:pt-52 pb-6 h-auto">
+          <h1 className="  text-wrap text-white text-7xl md:text-7xl  font-medium md:font-semibold text-center pt-32 lg:pt-52 pb-6 h-auto">
             Africans. Meet. Date. Connect.{" "}
           </h1>
           <p className=" text-2xl px-6 text-center text-white font-normal md:text-3xl">
