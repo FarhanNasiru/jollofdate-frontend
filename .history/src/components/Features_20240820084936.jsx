@@ -30,7 +30,7 @@ function Features() {
                 <img src="/Images/Phone2.png" alt="" className="w-full" />
               </a>
             </div>
-            <div className="bg-white text-center border rounded-3xl">
+            <div className="bg-white text-center border rounded-3xl md:flex hidden">
               <a href="">
                 <img src="/Images/Phone3.png" alt="" className="w-full" />
               </a>

@@ -78,36 +78,37 @@ function Aboutus() {
             </div>
           </div>
         </div> */}
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-12 md:space-y-0 md:space-x-20 lg:space-x-48 px-14">
-          <div className="flex flex-col items-center">
-            <img src="/Images/person.png" alt="Person Icon" />
-            <div className="text-center mt-2">
+        <div className="flex flex-wrap text-center flex-col md:flex-row space-y-12 md:space-y-0 pb-12 lg:pb-28 justify-center space-x-0 md:space-x-20 lg:space-x-48 px-14">
+          <div className="flex items-center flex-row mt-12 m-auto">
+            <img src="/Images/person.png" alt="Person Icon" className="" />
+            <div className="text-center md:text-left md:ml-3">
               <h1 className="font-bold text-4xl">360</h1>
               <h2 className="text-xs">Global Downloads</h2>
             </div>
           </div>
-
-          <div className="flex flex-col items-center">
-            <img src="/Images/people.png" alt="People Icon" />
-            <div className="text-center mt-2">
+          <div className="flex items-center flex-row mt-12 m-auto">
+            <img src="/Images/people.png" alt="People Icon" className="" />
+            <div className="text-center md:text-left md:ml-3">
               <h1 className="font-bold text-4xl">350</h1>
               <h2 className="text-xs">Active Users</h2>
             </div>
           </div>
-
-          <div className="flex flex-col items-center">
-            <img src="/Images/world-o.png" alt="World Icon" />
-            <div className="text-center mt-2">
+          <div className="flex flex-col items-center md:flex-row mt-12">
+            <img
+              src="/Images/world-o.png"
+              alt="World Icon"
+              className="m-auto"
+            />
+            <div className="text-center md:text-left md:ml-3">
               <h1 className="font-bold text-4xl">100</h1>
               <h2 className="text-xs">Countries</h2>
             </div>
           </div>
-
-          <div className="flex flex-col items-center">
-            <img src="/Images/Star2.png" alt="Star Icon" />
-            <div className="text-center mt-2">
+          <div className="flex flex-col items-center md:flex-row mt-12">
+            <img src="/Images/Star2.png" alt="Star Icon" className="m-auto" />
+            <div className="text-center md:text-left md:ml-3">
               <h1 className="font-bold text-4xl">100</h1>
-              <h2 className="text-xs lg:text-xl">4 star + ratings</h2>
+              <h2 className="text-xl">4 star + ratings</h2>
             </div>
           </div>
         </div>

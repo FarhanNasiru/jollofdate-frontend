@@ -20,8 +20,8 @@ function Community() {
               lifetime of happiness, success, progress, and bliss.
             </h3>
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center m-auto gap-3">
-            <a href="" className="w-32 md:w-40">
+          <div className="text-center justify-center m-auto gap-3 flex-col flex-wrap md:flex space-y-6">
+            <a href="" className="w-32 md:w-40 ">
               <img
                 src="/Images/Applestore-dark.png"
                 alt="Download on the App Store"

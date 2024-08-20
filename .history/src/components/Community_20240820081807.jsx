@@ -20,6 +20,22 @@ function Community() {
               lifetime of happiness, success, progress, and bliss.
             </h3>
           </div>
+          {/* <div className="text-center justify-center m-auto gap-3 md:flex-row flex-wrap md:flex space-y-6">
+            <a href="" className="w-32 md:w-40 ">
+              <img
+                src="/Images/Applestore-dark.png"
+                alt="Download on the App Store"
+                className="m-auto"
+              />
+            </a>
+            <a href="" className="w-32 md:w-40">
+              <img
+                src="/Images/Googleplay-Dark.png"
+                alt="Get it on Google Play"
+                className="m-auto"
+              />
+            </a>
+          </div> */}
           <div className="flex flex-col md:flex-row justify-center items-center m-auto gap-3">
             <a href="" className="w-32 md:w-40">
               <img
