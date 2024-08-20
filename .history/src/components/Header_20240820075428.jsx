@@ -65,7 +65,7 @@ function Header() {
               </li>
             </ul>
           </nav>
-          <div className="lg:hidden">
+          <div className="hidden lg:flex">
             <button onClick={toggleSidebar} className=" focus:outline">
               {isSidebarOpen ? (
                 <img src="/Images/close-icon.png" alt="" />
@@ -88,7 +88,7 @@ function Header() {
         <div className="p-4">
           <button
             onClick={toggleSidebar}
-            className="text-black focus:outline-none mb-8 absolute lg:hidden top-4 right-4"
+            className="text-black focus:outline-none mb-8 absolute top-4 right-4"
           ></button>
           <nav className="text-center">
             <ul className="space-y-10 text-2xl font-medium">
