@@ -70,7 +70,7 @@ function Header() {
               {isSidebarOpen ? (
                 <img src="/Images/close-icon.png" alt="" />
               ) : (
-                <img src="/Images/menu.png" alt="" />
+                <img src="/Images/menu.png" alt="" className="w-32" />
               )}
             </button>
           </div>

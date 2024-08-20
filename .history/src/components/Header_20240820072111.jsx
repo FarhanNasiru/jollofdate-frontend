@@ -17,7 +17,7 @@ function Header() {
               <img
                 src="/Images/image 5 (1).jpg"
                 alt="Jollof Date Logo"
-                className="h-14 w-32 md:w-44"
+                className="h-14 md:w-44"
               />
             </NavLink>
           </div>

@@ -47,11 +47,16 @@ function Faq() {
               <p className="text-xl font-medium">{item}</p>
               {openIndexes.includes(index) ? (
                 <div className="h-6 w-6">
-                  <img src="/Images/add.svg" alt="" />
+                  <img src="/Jellofdate/add.svg" alt="" />
                 </div>
               ) : (
                 <div className="h-6 w-6">
-                  <img src="/Images/add2.svg" alt="" className="bg-white" />
+                  <img
+                    src="/Jellofdate/add2.svg"
+                    src="/"
+                    alt=""
+                    className="bg-white"
+                  />
                 </div>
               )}
             </div>
