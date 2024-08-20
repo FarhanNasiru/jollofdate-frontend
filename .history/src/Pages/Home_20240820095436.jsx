@@ -51,7 +51,7 @@ function Home() {
             <img
               src="/Images/Home-arrow.png"
               alt=""
-              className=" sm:hidden md:flex lg:flex xl:flex justify-center m-auto md:pb-32"
+              className=" sm:hidden md:flex justify-center m-auto md:pb-32"
             />
           </a>
         </div>
