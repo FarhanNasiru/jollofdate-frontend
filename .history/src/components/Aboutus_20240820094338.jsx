@@ -38,7 +38,7 @@ function Aboutus() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-12 md:space-y-0 md:space-x-20 lg:space-x-48 px-16 pb-14 w-11/12">
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-12 md:space-y-0 md:space-x-20 lg:space-x-48 px-16 pb-14">
           <div className="flex items-center">
             <img src="/Images/person.png" alt="Person Icon" className="mr-4" />
             <div className="text-center md:text-left">
