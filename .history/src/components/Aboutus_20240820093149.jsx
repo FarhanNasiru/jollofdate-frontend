@@ -13,11 +13,7 @@ function Aboutus() {
             Why Jollof Date? What makes us different?
           </h3>
           <div className="flex flex-col xl:flex-row gap-4 lg:gap-8 px-2 lg:px-8 pb-16 lg:pb-32 justify-center">
-            <img
-              src="/Images/Lovers.png"
-              alt=""
-              className="max-w-xl max-h-3px"
-            />
+            <img src="/Images/Lovers.png" alt="" className="max-w-xl max-h-" />
             <div className="tracking-wide bg-white p-4 md:pt-28 font-normal text-base md:text-xl">
               <p>
                 Dating, whether in the real world or online, can be cumbersome
