@@ -21,7 +21,7 @@ function Header() {
               />
             </NavLink>
           </div>
-          <nav className="hidden lg:flex">
+          <nav className="hidden md:flex">
             <ul className="flex space-x-8 text-base md:text-xl font-medium">
               <li to="/">
                 <a

@@ -12,6 +12,7 @@ function Header() {
     <div>
       <div>
         <header className="flex mt-4 md:pt-0 justify-between items-center fixed top-0 w-11/12 m-auto bg-white rounded-full py-4 px-10 left-1/2 transform -translate-x-1/2 z-50">
+          <NavLink></NavLink>
           <div className="logo">
             <NavLink to="/">
               <img
@@ -83,7 +84,7 @@ function Header() {
       <div
         className={`fixed top-0 left-0 w-full h-full bg-white transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out lg:hidden flex items-center justify-center`}
+        } transition-transform duration-300 ease-in-out md:hidden flex items-center justify-center`}
       >
         <div className="p-4">
           <button
