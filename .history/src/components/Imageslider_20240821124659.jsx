@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 const images = [
   "/Images/Home-bg.png",
-  "../Images/Slide1.png",
-  "../Images/slide2.png",
+  "/Images/f-and-j-frame.png",
+  "/Images/slide2.png",
 ];
 
 const Slider = () => {

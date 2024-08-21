@@ -10,8 +10,6 @@ export default {
       },
       backgroundImage: {
         "home-image": "url('/Images/Home-bg.png')",
-        "home-image2": "url('/Images/slide2.png')",
-        "home-image3": "url('/Images/Slide1.png')",
         privacy: "url('/Images/TCimage.png')",
         terms: "url('/Images/TCimage.png')",
         "footer-texture": "url('/img/footer-texture.png')",
