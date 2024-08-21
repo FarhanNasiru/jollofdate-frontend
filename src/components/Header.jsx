@@ -11,7 +11,7 @@ function Header() {
   return (
     <div>
       <div>
-        <header className="flex mt-4 md:pt-0 justify-between items-center fixed top-0 w-11/12 m-auto bg-white rounded-full py-4 px-10 left-1/2 transform -translate-x-1/2 z-50 max-w-screen-2xl ">
+        <header className="flex mt-4 md:pt-0 justify-between items-center fixed top-0 w-11/12 m-auto bg-white rounded-full py-4 px-10 left-1/2 transform -translate-x-1/2 z-50 max-w-screen-xl ">
           <div className="logo">
             <NavLink to="/">
               <img

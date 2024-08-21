@@ -3,7 +3,7 @@ function Aboutus() {
     <div>
       <section
         id="about-us"
-        className="pt-16 md:pt-20 max-w-screen-2xl m-auto justify-center"
+        className="pt-20 md:pt-20 max-w-screen-2xl m-auto justify-center"
       >
         <div className="px-4 md:px-24">
           <h2 className="text-5xl font-normal text-center p-2">About Us</h2>
@@ -39,7 +39,7 @@ function Aboutus() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-12 md:space-y-0 md:space-x-20 lg:space-x-48 px-16 pb-14 w-11/12">
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-12 md:space-y-0 md:space-x-20 lg:space-x-48 px-16 pb-28 w-11/12 m-auto">
           <div className="flex items-center">
             <img src="/Images/person.png" alt="Person Icon" className="mr-4" />
             <div className="text-center md:text-left">

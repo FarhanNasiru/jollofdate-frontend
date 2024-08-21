@@ -17,7 +17,7 @@ function Features() {
               dating experience.
             </h2>
           </div>
-          <div className="flex flex-col md:flex-row h-full space-y-4 md:space-y-0 md:space-x-9 pl-0 md:pl-8 pr-0 md:pr-8 mt-8 w-full">
+          <div className="flex flex-col md:flex-row h-full space-y-4 md:space-y-0 md:space-x-9 pl-0 md:pl-8 pr-0 md:pr-8 mt-8 w-full justify-center m-auto">
             <div className="bg-white text-center border rounded-3xl">
               <img
                 src="/Images/phone1.png"

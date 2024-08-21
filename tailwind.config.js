@@ -15,6 +15,9 @@ export default {
         "footer-texture": "url('/img/footer-texture.png')",
         "custom-radial":
           "radial-gradient(50% 44.8% at 50% 50%, #F1CE7B 19.98%, #FEF6E4 100%)",
+        "slider-image-1": "url('/Images/Slide1.png')",
+        "slider-image-2": "url('/Images/slide2.png')",
+        "slider-image-3": "url('/Images/Home-bg.png')",
       },
       fontFamily: {
         HvDTrial: ["HvDTrial Brandon Grotesque", "sans-serif"],
