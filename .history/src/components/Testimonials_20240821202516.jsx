@@ -35,13 +35,11 @@ function Testimonials() {
   return (
     <section id="testimonials" className="p-8 pt-24 font-HvDTrial">
       <div>
-        <h2 className="text-5xl font-normal text-center p-2 font-HvDTrial">
-          Testimonials
-        </h2>
+        <h2 className="text-5xl font-normal text-center p-2">Testimonials</h2>
         <div className="flex justify-center pb-5 md:pb-6">
           <img src="/Images/love-logo.png" alt="Love Logo" />
         </div>
-        <h3 className="text-center text-lg font-HvDTrial">
+        <h3 className="text-center text-lg">
           Read what our existing users have to say
         </h3>
       </div>
@@ -50,7 +48,7 @@ function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div key={index}>
               <div style={contentStyle}>
-                <h1 className="text-black text-center m-auto font-normal text-2xl text-wrap font-HvDTrial">
+                <h1 className="text-black text-center m-auto font-normal text-2xl text-wrap">
                   {testimonial.quote}
                 </h1>
                 <div className="flex justify-center py-3">
@@ -63,7 +61,7 @@ function Testimonials() {
                     />
                   ))}
                 </div>
-                <p className="text-center text-black text-lg pb-8 font-HvDTrial">
+                <p className="text-center text-black text-lg pb-8">
                   {testimonial.name}
                 </p>
               </div>
