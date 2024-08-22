@@ -6,7 +6,7 @@ function Term() {
     <div>
       <Header />
       <section
-        id="Terms"
+        id=""
         className=" flex bg-center bg-no-repeat items-center mt-28 w-full h-custom11  bg-[url('/Images/TCimage.png')] max-w-screen-2xl justify-center m-auto font-HvDTrial"
       >
         <div className="text-center m-auto">

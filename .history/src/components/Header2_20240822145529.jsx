@@ -28,8 +28,7 @@ function Header() {
               <li to="/">
                 <NavLink
                   to="/"
-                  className="text-black font-HvDTrial Brandon Grotesque-500 "
-                  onClick={scrollToTop}
+                  className="text-black font-HvDTrial Brandon Grotesque-500"
                 >
                   Home
                 </NavLink>
@@ -38,7 +37,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   About Us
                 </NavLink>
@@ -47,7 +45,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   Features
                 </NavLink>
@@ -56,7 +53,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   How It Works
                 </NavLink>
@@ -65,7 +61,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   Testimonials
                 </NavLink>
@@ -103,7 +98,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   Home
                 </NavLink>
@@ -112,7 +106,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   About Us
                 </NavLink>
@@ -121,7 +114,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black text-2xl font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   Features
                 </NavLink>
@@ -130,7 +122,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black text-2xl font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   How It Works
                 </NavLink>
@@ -139,7 +130,6 @@ function Header() {
                 <NavLink
                   to="/"
                   className="text-black text-2xl font-HvDTrial Brandon Grotesque-500"
-                  onClick={scrollToTop}
                 >
                   Testimonials
                 </NavLink>

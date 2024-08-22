@@ -1,14 +1,10 @@
 import { NavLink } from "react-router-dom";
 
 function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
   return (
     <footer
       id="footer"
-      className=" font-HvDTrial px-20 pt-44 bg-featuresY text-white max-w-screen-2xl justify-center m-auto"
+      className=" font-HvDTrial px-20 pt-44 bg-featuresY text-white mb-5 max-w-screen-2xl justify-center m-auto"
     >
       <div className="">
         <div className="flex flex-wrap lg:space-x-8 mb-20 lg:justify-between space-y-8 lg:space-y-0">
@@ -25,7 +21,7 @@ function Footer() {
                 <img src="/Images/facebook.png" alt="" />
               </a>
               <a href="" id="">
-                <img src="/Images/ig.png" alt="" />
+                <img src="/Images/ig.png" alt="" className="" />
               </a>
               <a href="" id="">
                 <img src="/Images/twitter.png" alt="" />
@@ -37,19 +33,19 @@ function Footer() {
             <div className="">
               <ul className="space-y-3">
                 <li>
-                  <a href="#home" className="text-xl">
+                  <NavLink to="/" className="text-xl">
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a href="#features" className="text-xl">
+                  <NavLink to="/" className="text-xl">
                     Features
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a href="#how" className="text-xl">
+                  <NavLink to="/" className="text-xl">
                     How it Works
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
                   <NavLink

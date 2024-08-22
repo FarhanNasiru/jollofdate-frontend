@@ -52,20 +52,12 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <NavLink
-                    to="/terms"
-                    className="text-xl"
-                    onClick={scrollToTop}
-                  >
+                  <NavLink to="/terms" className="text-xl">
                     Terms
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink
-                    to="/privacy"
-                    className="text-xl"
-                    onClick={scrollToTop}
-                  >
+                  <NavLink to="/privacy" className="text-xl">
                     Privacy Policy
                   </NavLink>
                 </li>
