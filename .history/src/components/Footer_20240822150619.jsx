@@ -47,7 +47,7 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#how-it-works" className="text-xl">
+                  <a href="#howitworks" className="text-xl">
                     How it Works
                   </a>
                 </li>
