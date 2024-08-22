@@ -6,14 +6,14 @@ function Download() {
     >
       <div className="">
         <div>
-          <h1 className="text-center font-normal text-2xl pb-3 pl-3 pr-3">
+          <h1 className="text-center font-normal text-xl pb-3 pl-3 pr-3">
             Your one stop spot for the right relationship
           </h1>
         </div>
-        <h3 className="text-center font-bold text-5xl pb-3 lg:">
+        <h3 className="text-center font-bold text-4xl pb-3 lg:">
           Download Jollofdate Now
         </h3>
-        <h2 className=" flex text-lg text-center justify-center m-auto font-normal xl:w-80 pb-8">
+        <h2 className=" flex text-b text-center justify-center m-auto font-normal xl:w-80 pb-8">
           Begin your journey to a lifetime of happiness, success, progress and
           bliss.
         </h2>

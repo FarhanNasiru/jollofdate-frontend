@@ -90,7 +90,7 @@ function Header() {
             onClick={toggleSidebar}
             className="text-black focus:outline-none mb-8 absolute lg:hidden top-4 right-4"
           ></button>
-          <nav className="text-center font-HvDTrial">
+          <nav className="text-center">
             <ul className="space-y-10 text-2xl font-medium">
               <li>
                 <a

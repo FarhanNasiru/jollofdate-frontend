@@ -20,19 +20,19 @@ function Features() {
           <div className="flex flex-col md:flex-row h-full space-y-4 md:space-y-0 md:space-x-9 pl-0 md:pl-8 pr-0 md:pr-8 mt-8 w-full justify-center m-auto">
             <div className="bg-white text-center border rounded-3xl">
               <img
-                src="/Images/Features1 .png"
+                src="/Images/phone1.png"
                 alt=""
                 className="w-full md:w-auto"
               />
             </div>
             <div className="bg-white text-center border rounded-3xl">
               <a href="">
-                <img src="/Images/Features2 .png" alt="" className="w-full" />
+                <img src="/Images/Phone2.png" alt="" className="w-full" />
               </a>
             </div>
             <div className="bg-white text-center border rounded-3xl">
               <a href="">
-                <img src="/Images/Features3 .png" alt="" className="w-full" />
+                <img src="/Images/Phone3.png" alt="" className="w-full" />
               </a>
             </div>
           </div>

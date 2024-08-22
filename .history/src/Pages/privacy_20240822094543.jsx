@@ -12,7 +12,7 @@ function privacy() {
           className=" flex bg-center bg-no-repeat items-center mt-28 w-full h-custom11  bg-[url('/Images/TCimage.png')] max-w-screen-2xl justify-center m-auto font-HvDTrial"
         >
           <div className="text-center m-auto">
-            <h1 className="  text-wrap text-white text-5xl  font-medium text-center pb-6 h-auto">
+            <h1 className="  text-wrap text-white text-5xl  font-medium text-center pb-14 h-auto">
               Privacy Policy
             </h1>
             <p className=" text-xl px-8 text-center text-white font-normal lg:max-w-5xl">

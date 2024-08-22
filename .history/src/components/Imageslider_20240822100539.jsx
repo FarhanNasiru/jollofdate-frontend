@@ -12,14 +12,14 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div
-      className="w-full h-full bg-center bg-no-repeat bg-cover text-black duration-1000 ease-in-out font-HvDTrial"
+      className="w-full h-full bg-center bg-no-repeat bg-cover text-black duration-1000 ease-in-out"
       style={{ backgroundImage: `url(${images[currentIndex]})` }}
     >
       <div>

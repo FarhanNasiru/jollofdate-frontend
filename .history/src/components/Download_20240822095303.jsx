@@ -6,7 +6,7 @@ function Download() {
     >
       <div className="">
         <div>
-          <h1 className="text-center font-normal text-2xl pb-3 pl-3 pr-3">
+          <h1 className="text-center font-normal text-xl pb-3 pl-3 pr-3">
             Your one stop spot for the right relationship
           </h1>
         </div>

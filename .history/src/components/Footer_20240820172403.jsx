@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer
       id="footer"
-      className=" font-HvDTrial px-20 pt-44 bg-featuresY text-white max-w-screen-2xl justify-center m-auto"
+      className=" px-20 pt-44 bg-featuresY text-white max-w-screen-2xl justify-center m-auto"
     >
       <div className="">
         <div className="flex flex-wrap lg:space-x-8 mb-20 lg:justify-between space-y-8 lg:space-y-0">

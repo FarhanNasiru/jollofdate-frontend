@@ -39,7 +39,7 @@ function Community() {
         </div>
         <div className="flex justify-center mt-8">
           <img
-            src="/Images/Download phone.png"
+            src="/Images/threephones.png"
             alt="Three phones showing the app"
             className="w-full sm:w-4/5 md:w-3/5 lg:w-auto"
           />
