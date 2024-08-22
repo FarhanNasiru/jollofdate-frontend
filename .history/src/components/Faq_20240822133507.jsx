@@ -18,30 +18,29 @@ function Faq() {
         "The answer is simple - pictures of you. A picture can tell a thousand stories and this is what we want you to achieve with the photos you upload. So leave out your friends and do not try to cover your face. Jollof Date frowns at catfish accounts and permanently bans accounts caught",
     },
     {
-      question: "What should I put in my bio?",
+      question: "How can I create my profile on the app?",
       answer:
-        "This is the place where you sell yourself,  They say action speaks louder than words but sometimes words help too. So tell us about who you are using your bio. Our advise here is to keep it as funny and as short as possible while still trying to capture all the things that make you awesome.",
+        "Creating a profile is easy! Just download the app, sign up with your email, and follow the prompts to add your details and upload a profile picture.",
     },
     {
-      question: "How do matching and unmatching work?",
+      question: "How do I reset my password?",
       answer:
-        "Two members must have liked each other's profile in order to make a match and this is where the magic begins. If for some reason, you do not wish to continue conversing with a match, you can unmatch them by clicking the three-dot menu on the top right of the chat screen and clicking the unmatch button",
+        "To reset your password, go to the login screen and click on 'Forgot Password'. You'll receive an email with instructions on how to reset it.",
     },
     {
-      question: "How does messaging work on Jollof Date?",
+      question: "How can I delete my account?",
       answer:
-        "Messaging requires a two-way string which means you can only have a chat with someone that is your match on Jollof Date i.e. you liked the person's profile and they also liked yours.",
+        "If you wish to delete your account, go to 'Settings' in the app, scroll down, and click on 'Delete Account'. Please note that this action is irreversible.",
     },
     {
-      question: "How to Block and Report on Jollof Date?",
-      answer: `
-      Your safety is our top priority on Jollof Date. If someone makes you feel unsafe or uncomfortable, please don't hesitate to report them. To report a user:,
-      1. Open the profile on matches to view chat,
-      2. Click the three-dot menu on the top right,
-      3. Click on either report or block,
-      
-      If you report a user, you do not unmatch the user. However, Jollof Date takes note of the incident that prompted your report and can punish the user with a suspension or permanent ban on the account depending on the severity and occurrence of the offense. If you block a user, they get unmatched, and they can never find your profile again.
-    `,
+      question: "Is my data secure on Jollof Date?",
+      answer:
+        "Yes, your data is secure with us. We use encryption and follow best practices to ensure your personal information is protected.",
+    },
+    {
+      question: "Can I change my username?",
+      answer:
+        "Currently, changing your username is not supported. However, you can contact support if you need assistance with this.",
     },
   ];
 

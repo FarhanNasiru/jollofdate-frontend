@@ -31,6 +31,7 @@ function Faq() {
       question: "How does messaging work on Jollof Date?",
       answer:
         "Messaging requires a two-way string which means you can only have a chat with someone that is your match on Jollof Date i.e. you liked the person's profile and they also liked yours.",
+      history,
     },
     {
       question: "How to Block and Report on Jollof Date?",

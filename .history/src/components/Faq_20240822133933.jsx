@@ -34,14 +34,8 @@ function Faq() {
     },
     {
       question: "How to Block and Report on Jollof Date?",
-      answer: `
-      Your safety is our top priority on Jollof Date. If someone makes you feel unsafe or uncomfortable, please don't hesitate to report them. To report a user:,
-      1. Open the profile on matches to view chat,
-      2. Click the three-dot menu on the top right,
-      3. Click on either report or block,
-      
-      If you report a user, you do not unmatch the user. However, Jollof Date takes note of the incident that prompted your report and can punish the user with a suspension or permanent ban on the account depending on the severity and occurrence of the offense. If you block a user, they get unmatched, and they can never find your profile again.
-    `,
+      answer:
+        "Your safety is our top priority on Jollof Date. If someone makes you feel unsafe or uncomfortable, please don't hesitate to report them. To report a user:",
     },
   ];
 
