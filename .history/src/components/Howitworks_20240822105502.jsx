@@ -3,7 +3,7 @@ function Howitworks() {
     <div>
       <section
         id="how-it-works"
-        className=" md:pt-72 pb-10 max-w-screen-2xl justify-center m-auto"
+        className="pt-8 md:pt-72 pb-10 max-w-screen-2xl justify-center m-auto"
       >
         <h2 className="text-5xl font-normal text-center mt-24 md:mt-44 p-2">
           How it works
