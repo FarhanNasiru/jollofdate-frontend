@@ -8,15 +8,17 @@ function Footer() {
   const handleClick = (event) => {
     event.preventDefault();
 
+    // Scroll to the first section
     document
-      .getElementById("how-it-works")
+      .getElementById("first-section")
       .scrollIntoView({ behavior: "smooth" });
 
+    // Scroll to the second section after a delay
     setTimeout(() => {
       document
-        .getElementById("frequently-asked-questions")
+        .getElementById("second-section")
         .scrollIntoView({ behavior: "smooth" });
-    }, 8000);
+    }, 2000);
   };
 
   return (
@@ -61,11 +63,7 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#how-it-works"
-                    className="text-xl"
-                    onClick={handleClick}
-                  >
+                  <a href="#how-it-works" className="text-xl">
                     How it Works
                   </a>
                 </li>

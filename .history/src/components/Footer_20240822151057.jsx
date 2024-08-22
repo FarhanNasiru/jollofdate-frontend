@@ -8,15 +8,15 @@ function Footer() {
   const handleClick = (event) => {
     event.preventDefault();
 
-    document
-      .getElementById("how-it-works")
-      .scrollIntoView({ behavior: "smooth" });
+    // Scroll to the first section
+    document.getElementById("").scrollIntoView({ behavior: "smooth" });
 
+    // Scroll to the second section after a delay
     setTimeout(() => {
       document
-        .getElementById("frequently-asked-questions")
+        .getElementById("second-section")
         .scrollIntoView({ behavior: "smooth" });
-    }, 8000);
+    }, 2000);
   };
 
   return (

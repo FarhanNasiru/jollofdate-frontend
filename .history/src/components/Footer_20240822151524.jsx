@@ -16,7 +16,7 @@ function Footer() {
       document
         .getElementById("frequently-asked-questions")
         .scrollIntoView({ behavior: "smooth" });
-    }, 8000);
+    }, 2000);
   };
 
   return (
