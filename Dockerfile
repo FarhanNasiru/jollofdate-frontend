@@ -13,7 +13,7 @@ RUN npm install
 # Copy all files
 COPY . .
 
-EXPOSE 8080
+EXPOSE 4000
 
 # Build the application
 CMD ["npm", "run", "dev"]
