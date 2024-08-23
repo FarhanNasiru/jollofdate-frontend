@@ -10,16 +10,16 @@ steps:
   entrypoint: bash
   args: [
     '-c',
-    "docker build -t eu.gcr.io/codematic-shared-environment/jollofdate:$SHORT_SHA ."   
+    "docker build -t eu.gcr.io/codematic-shared-environment/jollofdatefrontend-v2:$SHORT_SHA ."   
   ]
   volumes:
     - name: 'myvolume'
       path: '/storage'
 - id: push-image
   name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'eu.gcr.io/codematic-shared-environment/jollofdate:$SHORT_SHA']
+  args: ['push', 'eu.gcr.io/codematic-shared-environment/jollofdatefrontend-v2:$SHORT_SHA']
 - id: deploy-image
-  name: 'gcr.io/codematic-shared-environment/jollofdate:$SHORT_SHA'
+  name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
-  args: ['run', 'deploy', '$_GCP_SERVICE_NAME', '--image', 'eu.gcr.io/codematic-shared-environment/jollofdate:$SHORT_SHA', '--region', 'us-central1']
-images: ['eu.gcr.io/codematic-shared-environment/jollofdate:$SHORT_SHA']
+  args: ['run', 'deploy', 'Jollofdatefrontend-v2', '--image', 'eu.gcr.io/codematic-shared-environment/jollofdatefrontend-v2:$SHORT_SHA', '--region', 'us-central1']
+images: ['eu.gcr.io/codematic-shared-environment/jollofdatefrontend-v2:$SHORT_SHA']
